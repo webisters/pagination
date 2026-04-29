@@ -1,0 +1,67 @@
+{
+    "name": "webisters/pagination",
+    "description": "Webisters Pagination Library",
+    "license": "MIT",
+    "type": "library",
+    "keywords": [
+        "pager",
+        "pagination",
+        "bootstrap",
+        "bulma",
+        "semantic-ui",
+        "tailwind",
+        "foundation"
+    ],
+    "authors": [
+        {
+            "name": "Hafiz Muhammad Moaz",
+            "email": "hafizmoazkhalid@gmail.com",
+            "homepage": "https://github.com/HafizMMoaz"
+        }
+    ],
+    "homepage": "https://webisters.com/packages/pagination",
+    "support": {
+        "email": "support@webisters.com",
+        "issues": "https://github.com/webisters/pagination/issues",
+        "forum": "https://github.com/webisters/forum",
+        "source": "https://github.com/webisters/pagination",
+        "docs": "https://webisters.com"
+    },
+    "funding": [
+        {
+            "type": "Webisters Sponsor",
+            "url": "https://webisters.com/sponsor"
+        }
+    ],
+    "require": {
+        "php": ">=8.2",
+        "ext-json": "*",
+        "webisters/helpers": "*",
+        "webisters/http": "*",
+        "webisters/language": "*"
+    },
+    "require-dev": {
+        "webisters/coding-standard": "*",
+        "jetbrains/phpstorm-attributes": "^1.0",
+        "phpunit/phpunit": "^10.5"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "Framework\\Pagination\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\Pagination\\": "tests/"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true
+    }
+}
+
+
